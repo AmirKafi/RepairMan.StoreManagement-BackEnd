@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{F306E0DE-4486-4614-8E8A-CA3D86725C6D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Framework", "00-Framework", "{045382A6-416C-4CD4-BF32-BAF382AF9725}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Domain", "01-Domain", "{AAFC8C25-6A83-4404-A8B5-1F6199977769}"
@@ -15,23 +13,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Application", "03-Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Interface", "04-Interface", "{6EA9FE23-1C33-432F-929C-716800E7B75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Core", "Framework.Core\Framework.Core.csproj", "{655772EC-D142-4055-9A9B-A9D9AB5EACF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Core", "Framework.Core\Framework.Core.csproj", "{655772EC-D142-4055-9A9B-A9D9AB5EACF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Infrastructure", "Framework.Infrastructure\Framework.Infrastructure.csproj", "{25B33050-3527-40A5-8C7B-5AFFE96CCB60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Infrastructure", "Framework.Infrastructure\Framework.Infrastructure.csproj", "{25B33050-3527-40A5-8C7B-5AFFE96CCB60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Utility", "Framework.Utility\Framework.Utility.csproj", "{E68A0CC5-62A6-4A0C-93E1-3FC4DF1C97E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Utility", "Framework.Utility\Framework.Utility.csproj", "{E68A0CC5-62A6-4A0C-93E1-3FC4DF1C97E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairMan.Domain", "RepairMan.StoreManagement.Domain\RepairMan.Domain.csproj", "{05143CC3-BD46-4B17-9BEF-3F21D3E99EE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairMan.Domain", "RepairMan.StoreManagement.Domain\RepairMan.Domain.csproj", "{05143CC3-BD46-4B17-9BEF-3F21D3E99EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairMan.Configure", "RepairMan.Configure\RepairMan.Configure.csproj", "{E10EB614-51D1-4E02-AB24-501D220C8E7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairMan.Configure", "RepairMan.Configure\RepairMan.Configure.csproj", "{E10EB614-51D1-4E02-AB24-501D220C8E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairMan.Persistence", "RepairMan.Persistence\RepairMan.Persistence.csproj", "{8F1D0735-D913-4F47-A803-11399B0E9996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairMan.Persistence", "RepairMan.Persistence\RepairMan.Persistence.csproj", "{8F1D0735-D913-4F47-A803-11399B0E9996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairMan.Application", "RepairMan.Application\RepairMan.Application.csproj", "{587C61A5-541B-48EC-9DC2-848FA95CC52B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairMan.Application", "RepairMan.Application\RepairMan.Application.csproj", "{587C61A5-541B-48EC-9DC2-848FA95CC52B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairMan.Application.Interface", "RepairMan.Application.Interface\RepairMan.Application.Interface.csproj", "{A3F8B135-5D1A-47EF-88B1-1C4B66059427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairMan.Application.Interface", "RepairMan.Application.Interface\RepairMan.Application.Interface.csproj", "{A3F8B135-5D1A-47EF-88B1-1C4B66059427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairMan.Interface", "RepairMan.Interface\RepairMan.Interface.csproj", "{89F33742-2DBA-46FF-835F-4D05AE9E6D37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepairMan.Interface", "RepairMan.Interface\RepairMan.Interface.csproj", "{89F33742-2DBA-46FF-835F-4D05AE9E6D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{A6206F3A-8AED-414C-A3CD-B81DAC6CB774}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F306E0DE-4486-4614-8E8A-CA3D86725C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F306E0DE-4486-4614-8E8A-CA3D86725C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F306E0DE-4486-4614-8E8A-CA3D86725C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F306E0DE-4486-4614-8E8A-CA3D86725C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{655772EC-D142-4055-9A9B-A9D9AB5EACF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{655772EC-D142-4055-9A9B-A9D9AB5EACF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{655772EC-D142-4055-9A9B-A9D9AB5EACF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,6 +75,10 @@ Global
 		{89F33742-2DBA-46FF-835F-4D05AE9E6D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89F33742-2DBA-46FF-835F-4D05AE9E6D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89F33742-2DBA-46FF-835F-4D05AE9E6D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6206F3A-8AED-414C-A3CD-B81DAC6CB774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6206F3A-8AED-414C-A3CD-B81DAC6CB774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6206F3A-8AED-414C-A3CD-B81DAC6CB774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6206F3A-8AED-414C-A3CD-B81DAC6CB774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
